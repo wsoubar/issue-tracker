@@ -18,3 +18,8 @@ spring:
     init:
       # Garante que o Spring vai rodar nosso script de criação de tabelas
       mode: always
+
+api:
+  security:
+    token:
+      secret: "tokenSecretKeyForJWTGeneration" # Substitua por uma chave secreta segura
